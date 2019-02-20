@@ -29,6 +29,14 @@ p {
   margin: 0 auto;
 }
 
+img {
+  height: 80px;
+}
+
+image:hover {
+  transform: rotate(45deg);
+}
+
 .clearfix {
   clear: both;
 }
@@ -43,7 +51,6 @@ p {
 }
 
 .define {
-  height: 500px;
   padding-top: 50px;
 }
 
@@ -103,10 +110,4 @@ p {
   color: #FFF;
 }
 
-img {
-  height: 80px;
-}
 
-image:hover {
-  transform: rotate(45deg);
-}
